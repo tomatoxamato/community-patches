@@ -128,3 +128,23 @@ node_modules/
 # Ignore IDEA files
 .idea/
 local.properties
+
+# Patchforge: APK inputs and modified test APKs
+*.apk
+*.apkm
+*.xapk
+*.apks
+
+# Patchforge: signing keys and local environment files
+*.keystore
+*.jks
+*.bks
+.env
+.env.*
+
+# Patchforge: private job data and working directories
+/jobs/
+/inbox/
+/decoded/
+/outbox/
+/state/
