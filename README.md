@@ -1,16 +1,24 @@
-# 👋🧩 Morphe Patches template
+# Tomatoxamato Community Patches
 
-Template repository for Morphe Patches.
+An independent community patch source maintained by tomatoxamato.
 
-## ❓ About
+## Project status
 
-Patches for apps I like.
+Setup is in progress. Do not use this source until a reviewed release is published.
 
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+## About
 
-### How to use these patches
+This repository is intended to contain reusable Morphe patches, compatibility information, and release bundles.
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/xyz-patches
+APKs, private logs, credentials, and signing keys must not be uploaded here.
+
+This is a community project, not an official Morphe patch source.
+
+## Adding this source
+
+After the first reviewed stable release is available, add this source to Morphe:
+
+https://morphe.software/add-source?github=tomatoxamato/community-patches
 
 ## 🩹 Patches list
 
@@ -88,4 +96,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+Tomatoxamato Community Patches are licensed under the [GNU General Public License v3.0](LICENSE)

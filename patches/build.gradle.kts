@@ -1,14 +1,13 @@
-group = "app.template"
+group = "app.patchforge"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Tomatoxamato Community Patches"
+        description = "Community patches maintained by tomatoxamato"
+        source = "https://github.com/tomatoxamato/community-patches"
+        author = "tomatoxamato"
+        contact = "https://github.com/tomatoxamato/community-patches/issues"
+        website = "https://github.com/tomatoxamato/community-patches"
         license = "GPLv3"
     }
 }
