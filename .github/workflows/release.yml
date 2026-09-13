@@ -3,10 +3,15 @@ name: Release
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
+      - dev
 
 jobs:
   release:
     name: Release
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+    environment: patch-release
     permissions:
       contents: write
       packages: write
